@@ -29,9 +29,6 @@ environment (this will be deleted by the script).
 
 4.  Set Up Permissions
 
-```{=html}
-<!-- -->
-```
 a.  Manage Snapshots Permissions -In the Lambda function's
     configuration, go to General configuration and then Permissions.\
     -Click on the Role name to open it in a new tab.\
@@ -52,9 +49,7 @@ b.  Describe Volumes and Instances Permissions\
     -Attach this policy to the role associated with your Lambda
     function.\
 
-```{=html}
-<!-- -->
-```
+
 6.  Delete the EC2 Instance\
     -Terminate the EC2 instance that you launched earlier.\
 
