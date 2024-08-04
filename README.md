@@ -57,6 +57,6 @@ b.  Describe Volumes and Instances Permissions\
     -Go back to the Lambda function.
 
 8.  Click on Deploy to ensure the latest version of the code is used.\
-    9.Click on Test to execute the function. The function should now
+9.  Click on Test to execute the function. The function should now
     delete snapshots and volumes associated with the terminated EC2
     instance.
