@@ -47,16 +47,16 @@ b.  Describe Volumes and Instances Permissions\
     -Set the resources to All resources.\
     -Review and create the policy.\
     -Attach this policy to the role associated with your Lambda
-    function.\
+    function.
 
 
 6.  Delete the EC2 Instance\
-    -Terminate the EC2 instance that you launched earlier.\
+    -Terminate the EC2 instance that you launched earlier.
 
-7.  Run the Lambda Function\
+7.  Run the Lambda Function
     -Go back to the Lambda function.
 
-8.  Click on Deploy to ensure the latest version of the code is used.\
+8.  Click on Deploy to ensure the latest version of the code is used.
 9.  Click on Test to execute the function. The function should now
     delete snapshots and volumes associated with the terminated EC2
     instance.
